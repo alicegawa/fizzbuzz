@@ -5,12 +5,12 @@ int main(){
   for(i=1;i<=100;i++){
     if(i%3==0){
       if(i%5==0){
-	printf("FIZZBUZZ\n");
+	printf("FOOBAR\n");
       }else{
-	printf("FIZZ\n");
+	printf("FOO\n");
       }
     }else if(i%5==0){
-      printf("BUZZ\n");
+      printf("BAR\n");
     }else{
       printf("%d\n",i);
     }
